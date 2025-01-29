@@ -8,8 +8,8 @@ The project involves developing a multimodal psychology chatbot that interacts w
 | Ece Heval Ünal          | CENG          | 202111014       |
 | Mustafa Tozman          | SENG          | 202128014       |
 | Özge Alkan              | SENG          | 202128406       |
-| Sadrettin Anıl Karaçay  | SENG          | 202011046       |
-| Zeliha Aybüke Baştürk   | CENG          | 202028034       |
+| Sadrettin Anıl Karaçay  | CENG          | 202011046       |
+| Zeliha Aybüke Baştürk   | SENG          | 202028034       |
 
 
 ### Advisors
