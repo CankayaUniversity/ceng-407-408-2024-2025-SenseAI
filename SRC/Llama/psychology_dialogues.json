@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "user_input": "Son zamanlarda kendimi çok yalnız hissediyorum.",
+        "bot_response": "Yalnızlık zor olabilir. Kendini biraz daha iyi hissetmek için neler yapıyorsun?",
+        "emotion": "üzgün",
+        "context": "yalnızlık"
+    },
+    {
+        "id": 2,
+        "user_input": "Geceleri uyuyamıyorum, sürekli kaygılıyım.",
+        "bot_response": "Bu oldukça zorlayıcı olabilir. Kaygının nedenlerini anlamaya çalıştın mı?",
+        "emotion": "kaygılı",
+        "context": "uykusuzluk, kaygı"
+    },
+    {
+        "id": 3,
+        "user_input": "İş yerinde sürekli baskı altındayım ve stresliyim.",
+        "bot_response": "Stres yönetimi için bazı teknikleri denedin mi? Örneğin nefes egzersizleri yardımcı olabilir.",
+        "emotion": "stresli",
+        "context": "iş stresi"
+    },
+    {
+        "id": 4,
+        "user_input": "Kimse beni anlamıyor gibi hissediyorum.",
+        "bot_response": "Bu his çok zor olabilir. Yakın hissettiğin biriyle konuştun mu?",
+        "emotion": "üzgün",
+        "context": "anlaşılmama"
+    },
+    {
+        "id": 5,
+        "user_input": "Son zamanlarda hiçbir şey yapmak istemiyorum, sürekli yorgunum.",
+        "bot_response": "Bunun geçici bir durum mu yoksa uzun süredir mi böyle hissettiğini düşünüyorsun?",
+        "emotion": "bitkin",
+        "context": "motivasyon eksikliği"
+    }
+]
