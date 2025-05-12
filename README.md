@@ -71,6 +71,9 @@ cd backend
 pip install -r requirements.txt
 node server.js
 ```
+Voice model: https://github.com/marcogdepinto/emotion-classification-from-audio-files
+
+Face model: https://github.com/Pradeep139lali/deepface-master/tree/master
 
 ---
 
