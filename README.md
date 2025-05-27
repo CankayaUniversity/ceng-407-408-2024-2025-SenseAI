@@ -36,22 +36,23 @@ pip install -r requirements.txt
 ## How to Train & Test
 
 ```bash
-python llama3_2.py
+python tinyllama_test.py
 ```
 
-Make sure `llama_data_prompt.jsonl` is in the same directory and the model outputs will be saved or loaded from `llama_model/`.
+Make sure llama_data_prompt_aug_more.jsonl is in the same directory and the model outputs will be saved or loaded from llama_model/.
 
 ---
 
 ## Trained Model
 
-The trained LLaMA model is included in the `llama_model/` directory.
+The trained LLaMA model is too large to include directly and has therefore been uploaded to Google Drive.
+Link: https://drive.google.com/drive/folders/1yET5gNH5dOd1vxnLcLaUx9Ai9r9Xvh2O?usp=sharing
 
 ---
 
 ## Dataset Info
 
-The dataset `llama_data_prompt.jsonl` includes emotionally labeled text samples in the format:
+The dataset `llama_data_prompt_aug_more.jsonl` includes emotionally labeled text samples in the format:
 
 ```json
 {
@@ -60,8 +61,12 @@ The dataset `llama_data_prompt.jsonl` includes emotionally labeled text samples 
 }
 ```
 
----
+## Pretrained models that you should install:
+  Face model(Deepface): https://github.com/Pradeep139lali/deepface-master/tree/master
+  
+  Voice model: https://github.com/marcogdepinto/emotion-classification-from-audio-files/tree/master
 
+---
 ## Server (API Layer)
 
 Go to the `backend/` directory and follow its instructions:
@@ -71,11 +76,6 @@ cd backend
 pip install -r requirements.txt
 node server.js
 ```
-Voice model: https://github.com/marcogdepinto/emotion-classification-from-audio-files
-
-Face model: https://github.com/Pradeep139lali/deepface-master/tree/master
-
----
 
 ## Flutter App
 
@@ -84,29 +84,6 @@ Navigate to the `flutter/` directory and run:
 ```bash
 flutter run
 ```
-
----
-## Included Components
-
-Fine-tuned LLaMA model code (training & testing)
-
-Emotion-labeled psychological dialogue dataset
-
-DeepFace for facial expression analysis
-
-Voice tone analysis
-
-API Server (Node.js)
-
-Basic Flutter UI
-
-## Known Issues
-
-Biometrics integration is experimental.
-
-Real-time fusion of modalities will be improved in upcoming versions.
-
-UI is minimal and not yet production-ready.
 
 ---
 
